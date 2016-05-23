@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="start_game">Start game!</string>
+    <string name="high_score">High score</string>
+    <string name="option">Option</string>
+    <string name="about_this">About this</string>
+    <string name="exit">Exit</string>
+    <string name="score">Score: </string>
+    <string name="time">Time: </string>
+    <string name="guide">Let\'s guess</string>
+    <string name="confirm">Confirm</string>
+
+</resources>
