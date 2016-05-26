@@ -9,5 +9,11 @@
     <string name="time">Time: </string>
     <string name="guide">Let\'s guess</string>
     <string name="confirm">Confirm</string>
-
+    <string name="too_high">Too high!</string>
+    <string name="correct">Correct!</string>
+    <string name="too_low">Too low!</string>
+    <string name="enter_number">Please enter a number!</string>
+    <string name="your_score">Your score</string>
+    <string name="to_main_menu">Go to Main menu</string>
+    <string name="play_again">Play Again</string>
 </resources>

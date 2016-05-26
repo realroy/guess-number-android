@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.realroy.guessthenumbergame.SumScoreActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_score"
+        android:id="@+id/yourScore_textView"
+        android:textAlignment="center"
+        android:textSize="48dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/showYourScore_textView"
+        android:textAlignment="center"
+        android:textSize="48dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/high_score"
+        android:id="@+id/HighScore_textView"
+        android:textAlignment="center"
+        android:textSize="48dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/showHighScore_textView"
+        android:textAlignment="center"
+        android:textSize="48dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_main_menu"
+        android:id="@+id/toMainMenu_btn" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:id="@+id/playAgain_btn" />
+</LinearLayout>
